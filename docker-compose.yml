@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  game-tracker:
+    build: .
+    container_name: game-price-tracker
+    stdin_open: true    # ← ВКЛЮЧАЕТ ВВОД
+    tty: true           # ← ВКЛЮЧАЕТ ТЕРМИНАЛ
