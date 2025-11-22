@@ -1,0 +1,9 @@
+@echo off
+echo 🔨 Сборка приложения в Docker...
+docker-compose up --build
+
+echo 📦 Копируем JAR файл...
+
+echo 🚀 Запуск приложения...
+java -jar target\game-price-tracker-1.0-SNAPSHOT.jar
+pause

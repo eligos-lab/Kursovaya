@@ -1,7 +1,7 @@
 version: '3.8'
 services:
-  game-tracker:
+  game-tracker-build:
     build: .
-    container_name: game-price-tracker
-    stdin_open: true    # ← ВКЛЮЧАЕТ ВВОД
-    tty: true           # ← ВКЛЮЧАЕТ ТЕРМИНАЛ
+    container_name: game-tracker-builder
+    volumes:
+      - ./target:/app/target  # Монтируем папку target для доступа к JAR
