@@ -1,9 +1,0 @@
-.git
-.github
-target
-*.iml
-.idea
-.DS_Store
-README.md
-logs/
-*.log
