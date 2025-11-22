@@ -26,7 +26,7 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.14</version>
         </dependency>
-
+        
         <!-- Современный JUnit для тестов -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
